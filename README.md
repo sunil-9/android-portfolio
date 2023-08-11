@@ -23,22 +23,14 @@ Welcome to the Personal Portfolio App, a basic-level Android application built u
 1. Clone this repository to your local machine using:
 
    ```
-   git clone https://github.com/your-username/personal-portfolio-app.git
+   git clone https://github.com/sunil-9/android-portfolio.git
    ```
 
 2. Open the project in Android Studio.
 
 3. Build and run the app on an Android emulator or a physical device.
 
-## Usage
 
-1. Upon opening the app, you will be greeted with the home screen showcasing key statistics about the developer's portfolio.
-
-2. Navigate to the "Portfolio" section to see a detailed list of projects and clients the developer has worked with.
-
-3. Feel free to explore each project to learn more about its details and technologies used.
-
-4. The "Contact" section provides information on how to get in touch with the developer for potential collaborations.
 
 ## Contributing
 
