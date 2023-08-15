@@ -87,7 +87,10 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
                     android:background="@drawable/bg_circle"
                     android:padding="5sp"
                     android:src="@drawable/ic_person" />
@@ -249,8 +252,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
+
                         android:text="About Sunil"
-                        android:textColor="@color/black"
+                        android:textColor="@color/secondary"
                         android:textSize="30sp"
                         android:textStyle="bold" />
 
@@ -264,6 +268,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/font"
                     android:paddingLeft="10dp"
                     android:text="I am a UI/UX Designer  Front End Developer.  I am expert in HTML, CSS, Bootstrap, JavaScript, jQuery, PSD to HTML, Responsive Web Design, WordPress Theme Development, WordPress Theme Customization, WordPress Plugin Development, WordPress Plugin Customization, WordPress Website Development, WordPress Website Customization, WordPress Website Speed Optimization, WordPress Website Security, WordPress Website SEO, WordPress Website Maintenance, WordPress Website Backup, WordPress Website Migration, WordPress Website Malware Removal, WordPress Website Hack Recovery, WordPress Website Bug Fixing, WordPress Website Error Fixing, WordPress Website Troubleshooting, WordPress Website Debugging, WordPress Website Performance Optimization."
                     android:textColor="@color/black"
@@ -290,7 +295,7 @@
                         android:layout_height="wrap_content"
                         android:padding="5dp"
                         android:text="My Skills"
-                        android:textColor="@color/black"
+                        android:textColor="@color/secondary"
                         android:textSize="30sp"
                         android:textStyle="bold" />
 
@@ -303,76 +308,79 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="45"
+                        android:layout_weight="3"
                         android:paddingLeft="10dp"
                         android:text="Mobile App :"
                         android:textColor="@color/black"
-                        android:textSize="30sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="55"
-
+                        android:layout_weight="7"
+                        android:fontFamily="@font/font"
                         android:text=" Android Studio,Flutter"
                         android:textColor="@color/black"
-                        android:textSize="16dp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="45"
+                        android:layout_weight="3"
                         android:paddingLeft="10dp"
                         android:text="Frondend :"
                         android:textColor="@color/black"
-                        android:textSize="30sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="55"
-
+                        android:layout_weight="7"
+                        android:fontFamily="@font/font"
                         android:text=" HTML, CSS, JavaScript"
                         android:textColor="@color/black"
-                        android:textSize="16dp" />
+                        android:textSize="16sp"/>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:layout_weight="45"
+                        android:layout_weight="3"
                         android:paddingLeft="10dp"
                         android:text="Backend :"
                         android:textColor="@color/black"
-                        android:textSize="30sp" />
+
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="55"
-
+                        android:layout_weight="7"
+                        android:fontFamily="@font/font"
                         android:text=" Python, Django, PHP"
                         android:textColor="@color/black"
-                        android:textSize="16dp" />
+                        android:textSize="16sp"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -387,7 +395,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="made with love ♥ By Sunil Sapkota" />
+                    android:text="Made with  ♥ By Sunil Sapkota" />
             </LinearLayout>
         </RelativeLayout>
 
