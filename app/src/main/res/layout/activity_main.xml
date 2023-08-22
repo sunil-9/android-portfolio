@@ -29,12 +29,14 @@
                 android:text="Sunil Sapkota"
                 android:textColor="@color/white"
                 android:textSize="30sp"
+                android:fontFamily="@font/font"
                 android:textStyle="bold"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
                 android:layout_gravity="center"
                 android:text="UI/UX Designer | Front End Developer"
                 android:textColor="@color/white"
@@ -56,6 +58,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/font"
                     android:text="Pokhara, Nepal"
                     android:textColor="@color/white" />
             </LinearLayout>

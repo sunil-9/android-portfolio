@@ -13,8 +13,8 @@ Welcome to the Personal Portfolio App, a basic-level Android application built u
 
 ## Screenshots
 <div align="center">
-  <img src="readme/Screenshot_20230811_132757.png" alt="Screenshot 1" width="300" />
-  <img src="readme/Screenshot_20230811_1328091.png" alt="Screenshot 2" width="300" />
+  <img src="readme/1.png" alt="Screenshot 1" width="300" />
+  <img src="readme/2.png" alt="Screenshot 2" width="300" />
 </div>
 
 
